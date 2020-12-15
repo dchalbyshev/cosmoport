@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="template:Web">
+    <output-path>$PROJECT_DIR$/space/target</output-path>
+    <root id="archive" name="template_Web.war">
+      <element id="artifact" artifact-name="template:Web exploded" />
+    </root>
+  </artifact>
+</component>
