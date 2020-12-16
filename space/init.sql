@@ -20,7 +20,7 @@ CREATE TABLE ship
     rating   DOUBLE      NULL,
     PRIMARY KEY (id)
 )
-    ENGINE = InnoDB
+    ENGINE = InnoDBship
     DEFAULT CHARACTER SET = utf8;
 
 insert into ship(name, planet, shipType, prodDate, isUsed, speed, crewSize, rating)
